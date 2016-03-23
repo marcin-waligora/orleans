@@ -62,7 +62,7 @@ This can be done though a storage provider for Azure Cache. We don’t have one 
 
 ## Can I Connect to Orleans silos from the public internet?
 
-Orleans is designed to be hosted as the back-end part of a service and you are suposed to create a front-end in your servers which externa clients connect to. It can be an http based Web API project, a socket server, a SignalR server or anything else which you require. You can actually connect to Orleans from the internet, but it is not a good practice from the security point of view.
+Orleans is designed to be hosted as the back-end part of a service and you are suposed to create a front-end in your servers which external clients connect to. It can be an http based Web API project, a socket server, a SignalR server or anything else which you require. You can actually connect to Orleans from the internet, but it is not a good practice from the security point of view.
 
 ## What happens if a silo fails before my grain call returns a response for my call?
 
